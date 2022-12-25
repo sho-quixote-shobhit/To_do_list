@@ -1,0 +1,51 @@
+body{
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(70deg , purple 50%, grey 50%);
+    min-height: 1000px;
+}
+.container{
+    width: 25%;
+    margin: auto auto;
+    text-align: center;
+    
+}
+p{
+    display: inline-block;
+}
+.list-items{
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+    text-align: left;
+}
+input:checked+p{
+    text-decoration: line-through;
+}
+input[type="checkbox"]{
+    margin: 20px;
+}
+.main-date{
+    background-color: purple;
+    border-radius: 7px;
+    color: white;
+}
+.to-do-task{
+    background-color: white;
+    border-radius: 5px;
+}
+button{
+    border-radius: 50%;
+    background-color: purple;
+    border: none;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+form.item{
+    text-align: center;
+    margin-left: 20px;
+}
+::placeholder{
+    color: grey;
+    opacity: 1;
+}
